@@ -1,0 +1,4 @@
+[build]
+  command = "composer install && php my_script.php"
+  # Atur versi PHP yang diinginkan di bawah ini
+  environment = { PHP_VERSION = "8.2" }
